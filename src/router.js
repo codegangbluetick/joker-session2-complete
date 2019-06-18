@@ -11,7 +11,7 @@ const router = () => {
 
   router.get('/punchline', async (req, res) => {
     res.send({
-      punchline: '',
+      punchline: 'To prism.',
     });
   });
 
