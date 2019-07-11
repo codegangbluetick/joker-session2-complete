@@ -1,12 +1,10 @@
 const Cloudant = require('@cloudant/cloudant');
 const https = require('https');
 
-const dbUrl =
-  'https://91d8d4cd-36ca-46ad-897e-ecc121be24a5-bluemix.cloudant.com';
-const dbUser = '91d8d4cd-36ca-46ad-897e-ecc121be24a5-bluemix';
-const dbPassword =
-  '650e97a00295d56910ae4ff6f4bf696d294847abaf44f2ec9ef3bd41df58fdcb';
-const database = 'jokes';
+const dbUrl = '';
+const dbUser = '';
+const dbPassword = '';
+const database = '';
 
 let url = '';
 if (dbUrl && dbUser && dbPassword)
